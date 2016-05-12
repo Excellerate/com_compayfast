@@ -1,0 +1,114 @@
+.compayfast .box{
+    float:left;
+    text-align:center;
+    width:50%;
+}
+    .compayfast > .box:nth-of-type(even){
+        padding-left:15px;
+    }
+    .compayfast > .box:nth-of-type(odd){
+        padding-right:15px;
+    }
+
+.compayfast .bordered{
+    box-shadow: 0px 0px 4px 0px #ccc;
+}
+
+.compayfast .item{
+    padding:15px;
+    margin-bottom:30px;
+    padding-bottom:55px;
+}
+
+.compayfast .image{
+    max-height:350px;
+    max-width:inherit;
+}
+
+.compayfast .details{
+    text-align:left;
+}
+
+.compayfast .title{
+    margin-bottom:0px;
+    padding-bottom:0px;
+    font-size: 24px;
+}
+
+.compayfast .price{
+    font-size:18px;
+}
+
+.compayfast .description{
+    margin-top:8px;
+    margin-bottom:15px;
+}
+
+.compayfast .options{
+    margin-bottom:15px;
+}
+
+.compayfast form{
+    display:block;
+    float:left;
+    width:50%;
+}
+    .compayfast .button{
+        display:block;
+        border:0px;
+        text-transform:uppercase;
+        font-size:12px;
+        padding:8px;
+        padding-top:9px;
+        letter-spacing:1px;
+        width:100%;
+        background-color:rgba(0,0,0,0.4);
+        color:white;
+    }
+    .compayfast .buttons button:hover{
+        background-color:rgba(0,0,0,7);
+    }
+    .compayfast .buttons form:first-child button{
+        background-color:rgba(0,0,0,0.7);
+    }
+    .compayfast .buttons form:first-child button:hover{
+        background-color:rgba(0,0,0,1);
+    }
+    .compayfast .short.buttons{
+        width:30%;
+        margin:0 auto;
+    }
+
+.compayfast form.checkout{
+    width:100%;
+}
+    .compayfast form.checkout label{
+        display:block;
+        font-weight:bold;
+        font-size:12px;
+    }
+    .compayfast form.checkout input{
+        display:block;
+        border:1px solid #ccc;
+        width:100%;
+        padding:8px;
+    }
+
+.compayfast table{
+    width:100%;
+    margin-bottom:15px;
+}
+    .compayfast table td, .compayfast table th{
+        padding:15px;
+    }
+    .compayfast table th{
+        background-color:#ccc;
+        text-align:left;
+    }
+    .compayfast table tr{
+        border-bottom:1px solid #e5e5e5;
+    }
+
+    .compayfast table.cart tr td:last-of-type{
+        text-align:right !important;
+    }
