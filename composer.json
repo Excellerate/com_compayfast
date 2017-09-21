@@ -1,0 +1,8 @@
+{
+  "name": "excellerate/mod_subscribe",
+  "type": "joomla-component",
+  "description": "Excellerate shop module",
+  "require": {
+    "composer/installers": "*"
+  }
+}
